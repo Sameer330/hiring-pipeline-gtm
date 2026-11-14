@@ -1,0 +1,32 @@
+Outreach Personalization (Signal-to-Pitch)
+
+About the company:
+Our company name is Nvidia. We are into designing high grade data processing units and conduct sales of such products.
+
+About the product:
+* Recently we launched a new product - "GPU Mini"
+* A mini version of our industrial GPUs used by Big Tech and Fortune 500 companies worldwide.
+* What it does - makes data processing and running local AI Models for organizations easier without needing to pay for huge cloud AI models.
+* Who is it for - Small, Medium and Large organizations where technology teams rely on cloud AI models for writing code
+* What it solves - Reduces company's spending on Cloud AI Model Billing.
+* What it provides - Freedom to run any(Open-source or Proprietory) AI Models locally without needing access to internet
+
+About target customer:
+Company name - {company_slug}
+Total Jobs Posted - {total_jobs}
+Tech Jobs - {tech_jobs}
+Hiring Intensity - {hiring_intensity}%
+Featured Role - {featured_role}
+
+Output Format(in JSON):
+target_persona: Who at the company should receive this? (e.g. "VP of Engineering", "Head of Infrastructure", "CTO")
+observation_hook: Sentence 1 citing the exact hiring spike.
+pain_point_bridge: Sentence 2 connecting the hiring spike to the engineering bottleneck.
+call_to_action: Sentence 3 asking for low-friction interest.
+
+Return ONLY the raw JSON object. Do not include markdown code blocks (```json) or conversational text.
+
+Tone Guidelines:
+* Sound like a busy peer engineer, not an overly eager salesperson.
+* Never use cliches: NO "hope this finds you well", NO "thrilled to connect", NO "game-changing", exact
+* Keep each Sentence tight and direct
